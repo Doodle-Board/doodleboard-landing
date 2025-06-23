@@ -1,0 +1,24 @@
+{
+  "name": "doodleboard-landing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "clsx": "^2.1.1",
+    "gsap": "^3.13.0",
+    "solid-js": "^1.9.5",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.8"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-solid": "^2.11.6"
+  }
+}
